@@ -104,7 +104,7 @@ DATA-Share/
 1. **Install dependencies**
 
    ```bash
-   cd /home/nero/DATA-Share-2025/DATA-Share/frontend
+   cd /home/$USER/DATA-Share-2025/DATA-Share/frontend
    npm install
    ```
 
