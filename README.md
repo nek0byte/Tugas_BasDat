@@ -44,7 +44,7 @@ DATA-Share/
 1. **Create and activate a virtual environment**
 
    ```bash
-   cd /home/nero/DATA-Share-2025/DATA-Share/backend
+   cd /home/$USER/DATA-Share-2025/DATA-Share/backend
    python -m venv .venv
    source .venv/bin/activate
    ```
@@ -76,8 +76,6 @@ DATA-Share/
    ```sql
    CREATE DATABASE IF NOT EXISTS student_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
    ```
-
-   > Tip: you can run this using the MySQL CLI or any client of your choice.
 
 5. **Run database migrations (table auto-creation)**
 
