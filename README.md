@@ -1,6 +1,7 @@
 # Student Data Dashboard
 
-A lightweight full-stack application for ingesting local student datasets into MySQL with a FastAPI backend and a Svelte + Tailwind frontend.
+Project for Data Base course 2025
+Create student info database from given data and display it.
 
 ## Project Structure
 
