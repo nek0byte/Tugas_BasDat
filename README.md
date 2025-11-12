@@ -1,6 +1,7 @@
 # Student Data Dashboard
 
 Project for Data Base course 2025
+
 Create student info database from given data and display it.
 
 ## Project Structure
