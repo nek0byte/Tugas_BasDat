@@ -43,7 +43,7 @@ DATA-Share/
 - Node.js 18+
 - MySQL 8.x (local installation or Docker)
 
-## Backend Setup (FastAPI)
+## Backend Setup
 
 1. **Create and activate a virtual environment**
 
@@ -81,11 +81,7 @@ DATA-Share/
    CREATE DATABASE IF NOT EXISTS student_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
    ```
 
-5. **Run database migrations (table auto-creation)**
-
-   Tables are auto-created at runtime. No additional migration tooling is required.
-
-6. **Place data files**
+5. **Place data files**
 
    Copy any `.csv`, `.xlsx`, or `.json` files containing student information into `/backend/data/`. Use `sample_students.csv` as a reference for required columns:
 
@@ -95,7 +91,7 @@ DATA-Share/
 
    The importer will attempt to normalise common variations such as `nama`, `prodi`, `gpa`, etc. Records are de-duplicated by `nim`.
 
-7. **Start the API server**
+6. **Start the API server**
 
    ```bash
    uvicorn main:app --reload
