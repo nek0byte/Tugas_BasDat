@@ -1,9 +1,13 @@
 # Student Data Dashboard
 
-Project for Data Base course 2025
+Project for Data Base class 2025
 
 Create student info database from given data and display it.
 
+by:
+- Ziad Parawansa (F1B02310149)
+- Nabiel Zahiddin (F1B02310138)
+- Muhammad Amri Al jabbar (F1B02310126)
 ## Project Structure
 
 ```
