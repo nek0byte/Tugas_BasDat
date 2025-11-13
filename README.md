@@ -134,24 +134,3 @@ DATA-Share/
 4. Open the dashboard in your browser.
 5. Click **Sync Data** to invoke the `/sync` endpoint and import the latest files.
 6. Use the search bar to filter students by name and click **View Detail** for additional information.
-
-## API Endpoints
-
-- `GET /students` – list all students with optional `skip`, `limit`, and `search` query parameters.
-- `GET /students/{id}` – fetch a student by numeric ID.
-- `GET /students/search?name=xyz` – search by name (case-insensitive).
-- `POST /sync` – re-import data files from `/backend/data/`.
-- `GET /health` – simple health check.
-
-## Optional Enhancements
-
-- Tailwind-based loading shimmer placeholders while data is fetched.
-- Toast notifications for sync success/failure.
-- Dark-themed UI with responsive cards and modal detail view.
-
-## Testing Tips
-
-- Run `curl http://localhost:8000/students` to confirm the API is reachable.
-- Use the included `sample_students.csv` to validate ingestion.
-- Extend `Sample_students.csv` or add more files to verify merging logic and duplicate handling.
-
